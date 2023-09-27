@@ -11,7 +11,7 @@
     "test": "mocha --recursive --timeout 20000 'test/**/*.spec.js'"
   },
   "dependencies": {
-    "@ethersproject/providers": "https://github.com/launchzone/ethers.js/releases/download/v5.3.1.1/ethers_providers.tar.gz",
+    "@ethersproject/providers": "https://gitpkg.now.sh/derivable-labs/ethers.js/packages/providers?master",
     "@trop/gear": "^0.4.2",
     "assisted-json-rpc-provider": "^2.0.2",
     "bsc_util": "^0.4.0",
