@@ -11,7 +11,7 @@
     "test": "mocha --recursive --timeout 20000 'test/**/*.spec.js'"
   },
   "dependencies": {
-    "@ethersproject/providers": "https://gitpkg.now.sh/derivable-labs/ethers.js/packages/providers?master",
+    "@ethersproject/providers": "https://gitpkg.now.sh/derivable-labs/ethers.js/packages/providers",
     "@trop/gear": "^0.4.2",
     "assisted-json-rpc-provider": "^2.0.2",
     "bsc_util": "^0.4.0",
@@ -25,19 +25,19 @@
   "devDependencies": {
     "mocha": "^6.2.2"
   },
-  "description": "A library to retrieve and strore data from Binance Smart Chain network",
+  "description": "A library to retrieve and strore data from EVM network",
   "main": "lib/index.js",
   "directories": {
     "lib": "lib"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/launchzone/chain-backend.git"
+    "url": "git+https://github.com/derivable-labs/chain-backend.git"
   },
-  "author": "",
-  "license": "UNLICENSED",
+  "author": "Derivable Labs",
+  "license": "MIT",
   "bugs": {
-    "url": "https://github.com/launchzone/chain-backend/issues"
+    "url": "https://github.com/derivable-labs/chain-backend/issues"
   },
-  "homepage": "https://github.com/launchzone/chain-backend#readme"
+  "homepage": "https://github.com/derivable-labs/chain-backend#readme"
 }

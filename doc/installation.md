@@ -4,13 +4,13 @@
 # STEP 1. 
 #
 # Make sure that local machine has read permission to Github repository at
-# https://github.com/ezDeFi/chain-backend by SSH key. 
+# https://github.com/derivable-labs/chain-backend by SSH key. 
 
 # STEP 2.
 #
 # Install package via SSH.
 #   * <tag> Specific tag.
-npm install git+ssh://git@github.com:ezDeFi/chain-backend.git#<tag>
+npm install git+ssh://git@github.com:derivable-labs/chain-backend.git#<tag>
 
 # STEP 3.
 # 
